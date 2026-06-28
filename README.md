@@ -1,6 +1,9 @@
-# RentNest - Property Rental Management System
+RentNest is a full-stack real estate rental platform where customers can browse rental properties, request inspections, and submit enquiries, while admins/agents manage listings and customer enquiries through a secure dashboard.
 
-RentNest is a full-stack real estate rental platform where customers can browse apartments and submit rental enquiries, while agents/admins can manage listings and enquiries through a dashboard.
+## Live Demo
+
+Frontend: Coming soon  
+Backend API: Coming soon
 
 ## Tech Stack
 
@@ -14,21 +17,32 @@ RentNest is a full-stack real estate rental platform where customers can browse 
 ### Backend
 - Java
 - Spring Boot
-- PostgreSQL
-- Spring Data JPA
 - Spring Security
+- JWT Authentication
+- Spring Data JPA
+- PostgreSQL
+
+### Tools
+- Git & GitHub
+- Postman
+- JUnit
+- Render/Railway
+- Vercel/Netlify
 
 ## Features
 
 ### Customer
-- Browse properties
+- View available properties
+- Search/filter by location, price, property type, and bedrooms
 - View property details
-- Submit rental enquiry
-- Request inspection
+- Submit rental/inspection enquiry
 
 ### Admin
-- Login
-- Add/edit/delete properties
+- Secure login
+- Dashboard statistics
+- Add property
+- Edit property
+- Delete property
 - View enquiries
 - Update enquiry status
 
