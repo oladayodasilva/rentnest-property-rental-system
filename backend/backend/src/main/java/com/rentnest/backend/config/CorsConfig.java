@@ -17,7 +17,10 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins(frontendUrl)
+                        .allowedOrigins(
+                            "http://localhost:5173",
+                            "https://rentnest-property-rental-system.vercel.app/"
+                        )
                         .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
